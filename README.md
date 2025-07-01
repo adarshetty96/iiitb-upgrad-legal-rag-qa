@@ -8,13 +8,6 @@ This project implements a Retrieval-Augmented Generation (RAG) pipeline for answ
 - Retrieves relevant chunks via FAISS and generates answers using a GPT-based LLM.
 - Evaluated on benchmark Q&A sets using ROUGE, BLEU, and semantic similarity.
 
-## 📁 Structure
-
-- `notebooks/` – Jupyter Notebook with the full pipeline.
-- `src/` – Modular code scripts (chunking, embedding, retrieval, evaluation).
-- `data/` – Benchmark Q&A pairs.
-- `reports/` – Summary report and presentation.
-- `rag_legal/` – FAISS vector store (excluded from repo via `.gitignore`).
 
 ## 🛠️ Setup
 
